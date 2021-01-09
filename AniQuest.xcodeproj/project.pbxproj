@@ -3,16 +3,28 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4947F203506074977D4BC31D /* Pods_AniQuestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAF756FD3EC6C6449251E1F9 /* Pods_AniQuestTests.framework */; };
+		7A1F3ED2BE44EFF6B6419695 /* Pods_AniQuest_AniQuestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 87522BA5B0B85405DD742566 /* Pods_AniQuest_AniQuestUITests.framework */; };
 		8433053A25A894BD009787C7 /* AniQuestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433053925A894BD009787C7 /* AniQuestApp.swift */; };
 		8433053C25A894BD009787C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433053B25A894BD009787C7 /* ContentView.swift */; };
 		8433053E25A894BF009787C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8433053D25A894BF009787C7 /* Assets.xcassets */; };
 		8433054125A894BF009787C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8433054025A894BF009787C7 /* Preview Assets.xcassets */; };
 		8433054C25A894BF009787C7 /* AniQuestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433054B25A894BF009787C7 /* AniQuestTests.swift */; };
 		8433055725A894BF009787C7 /* AniQuestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8433055625A894BF009787C7 /* AniQuestUITests.swift */; };
+		8433056825A897D6009787C7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8433056725A897D6009787C7 /* GoogleService-Info.plist */; };
+		843305EA25A8A02C009787C7 /* MainLogUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843305E925A8A02C009787C7 /* MainLogUIView.swift */; };
+		846318F425A8B6C100232266 /* VerificationLogUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846318F325A8B6C100232266 /* VerificationLogUIView.swift */; };
+		846318FA25A8C87100232266 /* HomeUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846318F925A8C87100232266 /* HomeUIView.swift */; };
+		8488A62925A8E73000146BCD /* DB.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488A62825A8E73000146BCD /* DB.swift */; };
+		8488A62E25A8ED8500146BCD /* AuthUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488A62D25A8ED8500146BCD /* AuthUIView.swift */; };
+		8488A63425A8F19600146BCD /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488A63325A8F19600146BCD /* Indicator.swift */; };
+		8488A64E25A98ED900146BCD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488A64D25A98ED900146BCD /* User.swift */; };
+		8488A65325A99BCD00146BCD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488A65225A99BCD00146BCD /* ImagePicker.swift */; };
+		D4A61DB9FFEE8830B9404CED /* Pods_AniQuest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DD11563821F44658E1D7D /* Pods_AniQuest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,6 +45,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0EA7E8CC95954D7DA040D79C /* Pods-AniQuest-AniQuestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniQuest-AniQuestUITests.debug.xcconfig"; path = "Target Support Files/Pods-AniQuest-AniQuestUITests/Pods-AniQuest-AniQuestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		3F692176E3D2C6BE23FEDE45 /* Pods-AniQuestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniQuestTests.debug.xcconfig"; path = "Target Support Files/Pods-AniQuestTests/Pods-AniQuestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		6F568032A124B7E21DB64E88 /* Pods-AniQuest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniQuest.debug.xcconfig"; path = "Target Support Files/Pods-AniQuest/Pods-AniQuest.debug.xcconfig"; sourceTree = "<group>"; };
 		8433053625A894BD009787C7 /* AniQuest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AniQuest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8433053925A894BD009787C7 /* AniQuestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniQuestApp.swift; sourceTree = "<group>"; };
 		8433053B25A894BD009787C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +60,21 @@
 		8433055225A894BF009787C7 /* AniQuestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AniQuestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8433055625A894BF009787C7 /* AniQuestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AniQuestUITests.swift; sourceTree = "<group>"; };
 		8433055825A894BF009787C7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8433056725A897D6009787C7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		843305E925A8A02C009787C7 /* MainLogUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainLogUIView.swift; sourceTree = "<group>"; };
+		846318F325A8B6C100232266 /* VerificationLogUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerificationLogUIView.swift; sourceTree = "<group>"; };
+		846318F925A8C87100232266 /* HomeUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeUIView.swift; sourceTree = "<group>"; };
+		8488A62825A8E73000146BCD /* DB.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DB.swift; sourceTree = "<group>"; };
+		8488A62D25A8ED8500146BCD /* AuthUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthUIView.swift; sourceTree = "<group>"; };
+		8488A63325A8F19600146BCD /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		8488A64D25A98ED900146BCD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8488A65225A99BCD00146BCD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		87522BA5B0B85405DD742566 /* Pods_AniQuest_AniQuestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniQuest_AniQuestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D27586F4EA71AD119733B24 /* Pods-AniQuestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniQuestTests.release.xcconfig"; path = "Target Support Files/Pods-AniQuestTests/Pods-AniQuestTests.release.xcconfig"; sourceTree = "<group>"; };
+		8FE20811E05ABCF5BA85B8E3 /* Pods-AniQuest-AniQuestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniQuest-AniQuestUITests.release.xcconfig"; path = "Target Support Files/Pods-AniQuest-AniQuestUITests/Pods-AniQuest-AniQuestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9909973E1CBF958A031BDC2E /* Pods-AniQuest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniQuest.release.xcconfig"; path = "Target Support Files/Pods-AniQuest/Pods-AniQuest.release.xcconfig"; sourceTree = "<group>"; };
+		AF4DD11563821F44658E1D7D /* Pods_AniQuest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniQuest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAF756FD3EC6C6449251E1F9 /* Pods_AniQuestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniQuestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4A61DB9FFEE8830B9404CED /* Pods_AniQuest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4947F203506074977D4BC31D /* Pods_AniQuestTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +98,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A1F3ED2BE44EFF6B6419695 /* Pods_AniQuest_AniQuestUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +112,8 @@
 				8433054A25A894BF009787C7 /* AniQuestTests */,
 				8433055525A894BF009787C7 /* AniQuestUITests */,
 				8433053725A894BD009787C7 /* Products */,
+				B82ABF67A0846B3360C80BAB /* Pods */,
+				F730CD8FBDA5A9B619ECBA26 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,11 +130,16 @@
 		8433053825A894BD009787C7 /* AniQuest */ = {
 			isa = PBXGroup;
 			children = (
+				8488A64C25A98E7400146BCD /* Models */,
+				8488A63225A8F18600146BCD /* Utils */,
+				843305E725A89FF7009787C7 /* Views */,
+				8433056725A897D6009787C7 /* GoogleService-Info.plist */,
 				8433053925A894BD009787C7 /* AniQuestApp.swift */,
 				8433053B25A894BD009787C7 /* ContentView.swift */,
 				8433053D25A894BF009787C7 /* Assets.xcassets */,
 				8433054225A894BF009787C7 /* Info.plist */,
 				8433053F25A894BF009787C7 /* Preview Content */,
+				8488A62825A8E73000146BCD /* DB.swift */,
 			);
 			path = AniQuest;
 			sourceTree = "<group>";
@@ -130,6 +170,73 @@
 			path = AniQuestUITests;
 			sourceTree = "<group>";
 		};
+		843305E725A89FF7009787C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				846318F825A8C86200232266 /* Home */,
+				843305E825A8A008009787C7 /* LogViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		843305E825A8A008009787C7 /* LogViews */ = {
+			isa = PBXGroup;
+			children = (
+				843305E925A8A02C009787C7 /* MainLogUIView.swift */,
+				846318F325A8B6C100232266 /* VerificationLogUIView.swift */,
+				8488A62D25A8ED8500146BCD /* AuthUIView.swift */,
+			);
+			path = LogViews;
+			sourceTree = "<group>";
+		};
+		846318F825A8C86200232266 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				846318F925A8C87100232266 /* HomeUIView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		8488A63225A8F18600146BCD /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8488A63325A8F19600146BCD /* Indicator.swift */,
+				8488A65225A99BCD00146BCD /* ImagePicker.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		8488A64C25A98E7400146BCD /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8488A64D25A98ED900146BCD /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B82ABF67A0846B3360C80BAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6F568032A124B7E21DB64E88 /* Pods-AniQuest.debug.xcconfig */,
+				9909973E1CBF958A031BDC2E /* Pods-AniQuest.release.xcconfig */,
+				0EA7E8CC95954D7DA040D79C /* Pods-AniQuest-AniQuestUITests.debug.xcconfig */,
+				8FE20811E05ABCF5BA85B8E3 /* Pods-AniQuest-AniQuestUITests.release.xcconfig */,
+				3F692176E3D2C6BE23FEDE45 /* Pods-AniQuestTests.debug.xcconfig */,
+				8D27586F4EA71AD119733B24 /* Pods-AniQuestTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F730CD8FBDA5A9B619ECBA26 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF4DD11563821F44658E1D7D /* Pods_AniQuest.framework */,
+				87522BA5B0B85405DD742566 /* Pods_AniQuest_AniQuestUITests.framework */,
+				BAF756FD3EC6C6449251E1F9 /* Pods_AniQuestTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +244,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8433055B25A894BF009787C7 /* Build configuration list for PBXNativeTarget "AniQuest" */;
 			buildPhases = (
+				60F86B0D7E55EBB9A9953029 /* [CP] Check Pods Manifest.lock */,
 				8433053225A894BD009787C7 /* Sources */,
 				8433053325A894BD009787C7 /* Frameworks */,
 				8433053425A894BD009787C7 /* Resources */,
+				B29DB4008E4442ADAF057ADE /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +263,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8433055E25A894BF009787C7 /* Build configuration list for PBXNativeTarget "AniQuestTests" */;
 			buildPhases = (
+				0340F1BC11AC0A55344F8EA3 /* [CP] Check Pods Manifest.lock */,
 				8433054325A894BF009787C7 /* Sources */,
 				8433054425A894BF009787C7 /* Frameworks */,
 				8433054525A894BF009787C7 /* Resources */,
@@ -172,9 +282,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8433056125A894BF009787C7 /* Build configuration list for PBXNativeTarget "AniQuestUITests" */;
 			buildPhases = (
+				44496BC14C4F899359997545 /* [CP] Check Pods Manifest.lock */,
 				8433054E25A894BF009787C7 /* Sources */,
 				8433054F25A894BF009787C7 /* Frameworks */,
 				8433055025A894BF009787C7 /* Resources */,
+				7FBFC9046AFF29BD8994C8C2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +347,7 @@
 			files = (
 				8433054125A894BF009787C7 /* Preview Assets.xcassets in Resources */,
 				8433053E25A894BF009787C7 /* Assets.xcassets in Resources */,
+				8433056825A897D6009787C7 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +367,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0340F1BC11AC0A55344F8EA3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AniQuestTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44496BC14C4F899359997545 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AniQuest-AniQuestUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		60F86B0D7E55EBB9A9953029 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AniQuest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7FBFC9046AFF29BD8994C8C2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AniQuest-AniQuestUITests/Pods-AniQuest-AniQuestUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AniQuest-AniQuestUITests/Pods-AniQuest-AniQuestUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AniQuest-AniQuestUITests/Pods-AniQuest-AniQuestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B29DB4008E4442ADAF057ADE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AniQuest/Pods-AniQuest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AniQuest/Pods-AniQuest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AniQuest/Pods-AniQuest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8433053225A894BD009787C7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				846318F425A8B6C100232266 /* VerificationLogUIView.swift in Sources */,
 				8433053C25A894BD009787C7 /* ContentView.swift in Sources */,
+				846318FA25A8C87100232266 /* HomeUIView.swift in Sources */,
 				8433053A25A894BD009787C7 /* AniQuestApp.swift in Sources */,
+				843305EA25A8A02C009787C7 /* MainLogUIView.swift in Sources */,
+				8488A64E25A98ED900146BCD /* User.swift in Sources */,
+				8488A62E25A8ED8500146BCD /* AuthUIView.swift in Sources */,
+				8488A65325A99BCD00146BCD /* ImagePicker.swift in Sources */,
+				8488A62925A8E73000146BCD /* DB.swift in Sources */,
+				8488A63425A8F19600146BCD /* Indicator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +638,7 @@
 		};
 		8433055C25A894BF009787C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F568032A124B7E21DB64E88 /* Pods-AniQuest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -435,6 +660,7 @@
 		};
 		8433055D25A894BF009787C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9909973E1CBF958A031BDC2E /* Pods-AniQuest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +682,7 @@
 		};
 		8433055F25A894BF009787C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F692176E3D2C6BE23FEDE45 /* Pods-AniQuestTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -477,6 +704,7 @@
 		};
 		8433056025A894BF009787C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8D27586F4EA71AD119733B24 /* Pods-AniQuestTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -498,6 +726,7 @@
 		};
 		8433056225A894BF009787C7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0EA7E8CC95954D7DA040D79C /* Pods-AniQuest-AniQuestUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -517,6 +746,7 @@
 		};
 		8433056325A894BF009787C7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FE20811E05ABCF5BA85B8E3 /* Pods-AniQuest-AniQuestUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
