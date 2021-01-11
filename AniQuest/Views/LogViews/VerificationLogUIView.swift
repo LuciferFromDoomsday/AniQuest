@@ -70,13 +70,15 @@ struct VerificationLogUIView: View {
                             
                         
                             
-                            checkUser {(exists, user) in
+                            checkUser {(exists, user , uid , pic) in
                                 
                                 if exists{
                                     UserDefaults.standard.set(true , forKey: "status")
                                     
                                     
-                                    UserDefaults.standard.set(user , forKey: "UserName")
+                                    UserDefaults.standard.set(user , forKey: "nickname")
+                                    UserDefaults.standard.set(uid , forKey: "UID")
+                                    UserDefaults.standard.set(pic , forKey: "pic")
                                     NotificationCenter.default.post(name:
                                     NSNotification.Name("statusChange") ,object: nil)
                                 }

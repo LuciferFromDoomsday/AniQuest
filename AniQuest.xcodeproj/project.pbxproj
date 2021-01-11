@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 51;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -24,6 +24,8 @@
 		8488A63425A8F19600146BCD /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488A63325A8F19600146BCD /* Indicator.swift */; };
 		8488A64E25A98ED900146BCD /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488A64D25A98ED900146BCD /* User.swift */; };
 		8488A65325A99BCD00146BCD /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488A65225A99BCD00146BCD /* ImagePicker.swift */; };
+		8488A65925AB0B6600146BCD /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = 8488A65825AB0B6600146BCD /* SDWebImageSwiftUI */; };
+		8488A65E25AB189800146BCD /* RecentCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488A65D25AB189800146BCD /* RecentCellView.swift */; };
 		D4A61DB9FFEE8830B9404CED /* Pods_AniQuest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF4DD11563821F44658E1D7D /* Pods_AniQuest.framework */; };
 /* End PBXBuildFile section */
 
@@ -69,6 +71,7 @@
 		8488A63325A8F19600146BCD /* Indicator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
 		8488A64D25A98ED900146BCD /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		8488A65225A99BCD00146BCD /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		8488A65D25AB189800146BCD /* RecentCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecentCellView.swift; sourceTree = "<group>"; };
 		87522BA5B0B85405DD742566 /* Pods_AniQuest_AniQuestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AniQuest_AniQuestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D27586F4EA71AD119733B24 /* Pods-AniQuestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniQuestTests.release.xcconfig"; path = "Target Support Files/Pods-AniQuestTests/Pods-AniQuestTests.release.xcconfig"; sourceTree = "<group>"; };
 		8FE20811E05ABCF5BA85B8E3 /* Pods-AniQuest-AniQuestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AniQuest-AniQuestUITests.release.xcconfig"; path = "Target Support Files/Pods-AniQuest-AniQuestUITests/Pods-AniQuest-AniQuestUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -82,6 +85,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8488A65925AB0B6600146BCD /* SDWebImageSwiftUI in Frameworks */,
 				D4A61DB9FFEE8830B9404CED /* Pods_AniQuest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -193,6 +197,7 @@
 			isa = PBXGroup;
 			children = (
 				846318F925A8C87100232266 /* HomeUIView.swift */,
+				8488A65D25AB189800146BCD /* RecentCellView.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -255,6 +260,9 @@
 			dependencies = (
 			);
 			name = AniQuest;
+			packageProductDependencies = (
+				8488A65825AB0B6600146BCD /* SDWebImageSwiftUI */,
+			);
 			productName = AniQuest;
 			productReference = 8433053625A894BD009787C7 /* AniQuest.app */;
 			productType = "com.apple.product-type.application";
@@ -329,6 +337,9 @@
 				Base,
 			);
 			mainGroup = 8433052D25A894BC009787C7;
+			packageReferences = (
+				8488A65725AB0B6600146BCD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+			);
 			productRefGroup = 8433053725A894BD009787C7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -479,6 +490,7 @@
 				8433053C25A894BD009787C7 /* ContentView.swift in Sources */,
 				846318FA25A8C87100232266 /* HomeUIView.swift in Sources */,
 				8433053A25A894BD009787C7 /* AniQuestApp.swift in Sources */,
+				8488A65E25AB189800146BCD /* RecentCellView.swift in Sources */,
 				843305EA25A8A02C009787C7 /* MainLogUIView.swift in Sources */,
 				8488A64E25A98ED900146BCD /* User.swift in Sources */,
 				8488A62E25A8ED8500146BCD /* AuthUIView.swift in Sources */,
@@ -804,6 +816,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8488A65725AB0B6600146BCD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8488A65825AB0B6600146BCD /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8488A65725AB0B6600146BCD /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 8433052E25A894BC009787C7 /* Project object */;
 }

@@ -18,7 +18,9 @@ struct ContentView: View {
         VStack{
 
             if status {
-                HomeUIView()
+                NavigationView{
+                HomeUIView().environmentObject(MainObservable())
+                }
             }
             else{
                 NavigationView{
