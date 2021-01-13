@@ -72,6 +72,8 @@ struct MainLogUIView: View {
                 
                 Button(action:{
                     
+                    if input.value != "" && num != ""{
+                    
                     PhoneAuthProvider.provider().verifyPhoneNumber( self.input.value + self.num  , uiDelegate:nil){ID,err in
                         
                         if err != nil{
@@ -83,7 +85,11 @@ struct MainLogUIView: View {
                         self.ID = ID!
                         self.show.toggle()
                     }
-                    
+                }
+                    else{
+                        self.msg = "Not all fields are filled"
+                        self.alert.toggle()
+                    }
                 }){
                     Text("Send").frame(width: UIScreen.main.bounds.width - 30, height: 50)
                     

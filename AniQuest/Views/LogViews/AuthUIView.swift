@@ -86,7 +86,7 @@ struct AuthUIView: View {
                 Button(action:{
                     
                     if self.nick != "" && self.nick.count > 5 && self.image.count != 0{
-                        print("error")
+                       
                         self.loading.toggle()
                         createUser(nickname: self.nick, image: self.image ){
                             (status) in
@@ -94,12 +94,14 @@ struct AuthUIView: View {
                             if status{
                                 self.show.toggle()
                             }
+                          
                         }
                     }
                     else{
                         print("error")
                         self.alert.toggle()
                     }
+                  
                    
                 }){
                    

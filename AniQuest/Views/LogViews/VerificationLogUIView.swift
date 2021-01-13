@@ -33,6 +33,7 @@ struct VerificationLogUIView: View {
                         .fontWeight(.bold)
                         .foregroundColor(.gray)
                         .padding(.top , 10)
+                        .multilineTextAlignment(.center)
                         
 
                         TextField("Code" , text : $code)
